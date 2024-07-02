@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.profile img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.profile h2 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.profile p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.about {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.about p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.goals {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.goals h2 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.goals ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.goals ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.current-info {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.current-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.links {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.links h2 {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.links ul li a {
+    color: #00796b;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.links ul li a:hover {
+    color: #004d40;
+}
+
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+}
